@@ -57,10 +57,8 @@ public class YunXiaoService {
             return "not graphData";
         }
         JSONArray graphData = jsonObject.getJSONArray("graphData");
-        boolean hasDetail = false;
         for (int i = 0; i < graphData.size(); i++) {
             if (graphData.getJSONObject(i).getString("name").equals("detail")) {
-                hasDetail = true;
                 JSONArray rows = graphData.getJSONObject(i).getJSONArray("rows");
                 if (rows.size() <= 0) {
                     return "0";
@@ -75,10 +73,7 @@ public class YunXiaoService {
                 return result;
             }
         }
-        if (!hasDetail) {
-            return "not detail";
-        }
-        return "null";
+        return "not detail";
     }
 
     public void getDateData() throws ParseException {
