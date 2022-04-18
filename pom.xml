@@ -17,9 +17,9 @@
     </parent>
 
     <groupId>com.junwen</groupId>
-    <artifactId>springboot-study</artifactId>
+    <artifactId>springboot-scaffold</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot-study</name>
+    <name>springboot-scaffold</name>
     <description>springboot-study</description>
 
     <properties>
