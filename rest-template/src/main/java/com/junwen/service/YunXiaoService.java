@@ -18,7 +18,7 @@ import java.util.GregorianCalendar;
 @Service
 public class YunXiaoService {
 
-    static String cookie = "cna=TAfYGd2NAn8CAXFYYK0xRIWJ; aliyun_lang=zh; session-lead-visited/609de4e2aa6381038ed2f993=false; session-cloud-search-visited/609de4e2aa6381038ed2f993=false; currentRegionId=cn-hangzhou; t=16240c2e774a195a40fae57c96156b98; referral=%7B%22domain%22%3A%22devops.aliyun.com%22%2C%22path%22%3A%22%2F%22%2C%22query%22%3A%22%22%2C%22hash%22%3A%22%22%7D; changelog_date=1624579200000; login_aliyunid_pk=1023395707489464; TEAMBITION_SESSIONID.sig=9iNia8lF13GBXoJCGtcg-Z-o1rQ; aliyun_choice=CN; teambition_lang=zh; _samesite_flag_=true; cookie2=197049e11d54bdd1af3f0206a6cebf53; _tb_token_=f3e453bb07d73; _hvn_login=6; csg=babdd43d; login_aliyunid_ticket=$w3Ck$9LGn4aeVSxfUtRUOnzsSCS5jrNY6*Pq96zszvEa_snpof_BNTwUhTOoNC1ZBeeMfKJzxdnb95hYssNIZor6q7SCxRtgmGCbifG2Cd4ZWazmBdHI6sgXZqg4XFWQfyKpeu*0vCmV8s*MT5tJl1_0; login_aliyunid_csrf=_csrf_tk_1853850263966970; hssid=1HLaZ-SsFX1HOiIDHyosLkA1; hsite=6; aliyun_country=CN; aliyun_site=CN; login_aliyunid=182****3488; LOGIN_ALIYUN_PK_FOR_TB=1023395707489464; TEAMBITION_SESSIONID=eyJ1aWQiOiI2MDlkZTRlMmFhNjM4MTAzOGVkMmY5OTMiLCJhdXRoVXBkYXRlZCI6MTY0OTk5MDQxMjU5OSwidXNlciI6eyJfaWQiOiI2MDlkZTRlMmFhNjM4MTAzOGVkMmY5OTMiLCJuYW1lIjoi6Ze15L+K5paHIiwiZW1haWwiOiJhY2NvdW50c182MDlkZTRlMjRhNDI1NDAwMmQ3YWRmZDlAbWFpbC50ZWFtYml0aW9uLmNvbSIsImF2YXRhclVybCI6Imh0dHBzOi8vdGNzLWRldm9wcy5hbGl5dW5jcy5jb20vdGh1bWJuYWlsLzExMmFmMjI1NTU1MjRhZTE5OGRhNjg0NDg1MzcxOGEzMjM1Yy93LzEwMC9oLzEwMCIsInJlZ2lvbiI6InVzIiwibGFuZyI6IiIsImlzUm9ib3QiOmZhbHNlLCJvcGVuSWQiOiIiLCJwaG9uZUZvckxvZ2luIjoiIiwiY3JlYXRlZCI6IjIwMjEtMDUtMTRUMDI6NDg6MDIuNTE0WiJ9LCJsb2dpbkZyb20iOiIifQ==; isg=BMnJJPyHzyWQALBdwqHVrMMb2PUjFr1Io87_HWs-RbDvsunEs2bNGLfj8BYE6lWA; l=eBMnuGblgsJIZPiOBOfwourza77OSIRAguPzaNbMiOCPOH1B5w5cW62QQ4Y6C3GVh682R38sRq92BeYBqQd-nxv9JQZjEYDmn; tfstk=c5vVB3DtLxH4qf6s9t6Z5xm9S9-AZMKDj8SCi2v9HzvzvgfcinzOqaHd4GZzSsf..; TB_ACCESS_TOKEN=eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhcHAiOiI1ZTczMGNmMjIwMWQyMGQ3MTc5ODhlNDYiLCJhdWQiOiIiLCJleHAiOjE2NTA1MjMxNjgsImlhdCI6MTY1MDI2Mzk2OCwiaXNzIjoidHdzIiwianRpIjoiakluN3JXNG5PNXk5QVFEMUw3SFVGbDN5c0lJaGNiLURDMFJUZW1YVlB5cz0iLCJyZW5ld2VkIjoxNjQ5OTkwNDEyNTk5LCJzY3AiOlsiYXBwX3VzZXIiXSwic3ViIjoiNjA5ZGU0ZTJhYTYzODEwMzhlZDJmOTkzIiwidHlwIjoiYWNjZXNzX3Rva2VuIn0.htEKA_fBbrxJCWei6GYEsOfmI3SmyjKoRq9Jj_MshIUKvnCaDr4Ln6VFcGPO_5gja5TMpApigvedlDsCcr4GDg; XSRF-TOKEN=bb9b0fb8-9ed1-4b9b-9215-04e067bc30ed";
+    static String cookie = "cna=SAXYGYANx0ECAXFYYK0dTIn7; _samesite_flag_=true; cookie2=1e3fad8ee221f50e3ba7a05b7fc4397b; t=ee82c2b19738cce11ba26fa1ede5907f; _tb_token_=e3b67aeee90ee; _hvn_login=6; csg=e8552cf0; login_aliyunid_ticket=sgdZq64XXWQgyKFeuf0vpmV*s*CT58JlM_1t$w3W1$8Xk6jDy9Nhtdi8HJAZKbfbOaLBdOkLKpOISwHHi_Qcpof_BNTwUhTOoNC1ZBeeMfKJzxdnb95hYssNIZor6q7SCxRtgmGCbifG2Cd4ZWazmBIH0; login_aliyunid_csrf=_csrf_tk_1626155447595114; login_aliyunid_pk=1540855447594154; hssid=1PkscXDilFo5FkCrtwK8tVQ1; hsite=6; aliyun_country=CN; aliyun_site=CN; aliyun_lang=zh; login_aliyunid=aliyun246585****; currentRegionId=cn-hangzhou; aliyun_choice=CN; teambition_lang=zh; LOGIN_ALIYUN_PK_FOR_TB=1540855447594154; TEAMBITION_SESSIONID=eyJ1aWQiOiI2MmFjMjA1Y2FhOTg3NmMyZTA4OTg4ZmIiLCJhdXRoVXBkYXRlZCI6MTY1NTQ0NzY0NDc0NiwidXNlciI6eyJfaWQiOiI2MmFjMjA1Y2FhOTg3NmMyZTA4OTg4ZmIiLCJuYW1lIjoiYWxpeXVuMjQ2NTg1MjMxMSIsImVtYWlsIjoiYWNjb3VudHNfNjJhYzIwNWNhYTk4NzZjMmUwODk4OGYzQG1haWwudGVhbWJpdGlvbi5jb20iLCJhdmF0YXJVcmwiOiJodHRwczovL3Rjcy1kZXZvcHMuYWxpeXVuY3MuY29tL3RodW1ibmFpbC8xMTJpOTE2MTUzMGJkMWRmYmE5NmMwYzc0OTM0M2EyMTZlN2Ivdy8xMDAvaC8xMDAiLCJyZWdpb24iOiIiLCJsYW5nIjoiIiwiaXNSb2JvdCI6ZmFsc2UsIm9wZW5JZCI6IiIsInBob25lRm9yTG9naW4iOiIiLCJjcmVhdGVkIjoiMjAyMi0wNi0xN1QwNjozNDowNC43NDZaIn0sImxvZ2luRnJvbSI6IiJ9; TEAMBITION_SESSIONID.sig=n3HAQ-LLF5Hc2PXwbaqHfwng5p4; isg=BN_f4ox0wTodVsYGH9aheAUrbjNpRDPmDKKjfHEsew7VAP-CeRTDNl3RwpB-mAte; l=eBg7I33ggmQBkHypBOfwourza77OSIRAguPzaNbMiOCPskCB5g6FW6jd9xY6C3GVh6WyR3uKagA6BeYBqQd-nxvtGwBLE8Dmn; tfstk=cMNFBb1Rg6CUQSc5HXGPR01dahadaWU3rCujKil3P3bASgkn0sqy2VmOMVuW73Dh.";
 
     @Autowired
     private RestTemplate restTemplate;
@@ -59,7 +59,13 @@ public class YunXiaoService {
             return "not graphData";
         }
         JSONArray graphData = jsonObject.getJSONArray("graphData");
-        for (int i = 0; i < graphData.size(); i++) {
+        JSONArray rows = graphData.getJSONObject(0).getJSONArray("rows");
+        if(null != rows && rows.size() > 0){
+            return rows.getJSONArray(0).getString(1);
+        }else {
+            return "0";
+        }
+        /*for (int i = 0; i < graphData.size(); i++) {
             if (graphData.getJSONObject(i).getString("name").equals("detail")) {
                 JSONArray rows = graphData.getJSONObject(i).getJSONArray("rows");
                 if (rows.size() <= 0) {
@@ -75,14 +81,14 @@ public class YunXiaoService {
                 return result;
             }
         }
-        return "not detail";
+        return "not detail";*/
     }
 
     public void getDateData() throws ParseException {
         SimpleDateFormat format = new SimpleDateFormat("yyy-MM-dd");
 
         Date end = new Date();
-        for (Date date = format.parse("2022-03-01"); date.compareTo(end) <= 0; date = addDate(date,1)) {
+        for (Date date = format.parse("2022-05-16"); date.compareTo(end) <= 0; date = addDate(date,1)) {
             Date yesterday = addDate(date, -1);
             String rangeBegin = format.format(yesterday).concat("T16:00:00.000Z");
             String rangeEnd = format.format(date).concat("T15:59:59.999Z");
